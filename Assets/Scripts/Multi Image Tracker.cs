@@ -6,6 +6,8 @@ using UnityEngine.XR.ARSubsystems;
 
 public class MultiImageTracker : MonoBehaviour
 {
+    //this code was based on this video: https://www.youtube.com/watch?v=Fpw7V3oa4fs&ab_channel=lightsandclockwork
+
     private ARTrackedImageManager trackedImages;
     public GameObject[] ArPrefabs;
 
